@@ -1,0 +1,80 @@
+/* This is to turn off the template borders
+* {
+  border: 1px solid black;
+}
+*/
+body {
+  background-color: black;
+}
+/* This is the first row of your landing page which includes an image in the background and the 'greeting' script in the front */
+.alpha {
+  height: 400px;
+  text-align: center; /*Remember that text-align works wonders to center objects on your page */
+  background-color: #b3ffff;
+  background-image: url('../images/backdrop_6.jpg');
+  /* This is an over-sized placeholder to demonstrate the general size of the area */
+}
+/* This was added to give the 'greeting' a more centered look within the div */
+.alpha h2 {
+  opacity: 0.85;
+  font: 40px 'Oswald', sans-serif;
+  color: white;
+  margin-top: 150px;
+  background-color: black;
+}
+.alpha #greeting {
+  font: 60px 'Oswald', sans-serif;
+  color:;
+}
+/* This the second row of your landing page which includes 3 separate columns that contain images confined to circles and captions/text */
+.beta {
+  background-color: white;
+  height: 300px;
+  text-align: center;
+}
+.beta figcaption {
+  font: 24px 'Oswald', sans-serif;
+}
+/* These are the images bound to circles within your second row */
+.mini_circle {
+  height: 160px;
+  width: 160px;
+  background-color: black;
+  border-radius: 100%;
+}
+/* This is the third row of your landing page which serves as a divider between the 3 columns above and the footer area below */
+/* Note that divider_1 is actually a spaceholder for the left and right side of the divider itself */
+.divider_1 {
+  background-color: #b3ffff;
+  height: 40px;
+}
+/* This is divider_2 which is the actual information area of your row Tip(You could put a button or a link here to display something) */
+.divider_2 {
+  background-color: #b3ffff;
+  height: 40px;
+  text-align: center;
+}
+/* This is the fourth row of your landing page that could contain your client reviews as shown in the sample copy Ian posted */
+.foot {
+  height: 300px;
+  text-align: center;
+}
+/* Once again a specific selection was made to give the h3 within the 4th row some margin spacing from the top */
+.foot h3 {
+  margin-top: 100px;
+  font: 24px 'Oswald', sans-serif;
+  color: white;
+}
+/* This is the beginning of the @media Queries for different display formats */
+@media screen and (min-width:0px) and (max-width:700px) {
+
+.mini_circle {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 100%;
+}
+.beta figcaption {
+  font: 18px 'Oswald', sans-serif;
+}
+/* == I have no finished my @media queries for this site == */
